@@ -18,6 +18,9 @@ h2 {font-family: "Raleway", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;    
     }
+h1,h2{
+    text-transform: uppercase;
+}
 h3 {
         font-family: "Raleway", sans-serif;
         color: #0D2C40;
@@ -28,16 +31,13 @@ h3 {
 p {
     font-family: "Droid Serif", sans-serif;
     font-size: 18px;
-    font-weight: normal;
     line-height: 26px;
-    text-align: center;
-    font-style: italic;
 }
 
 nav{
     background-color: #00a6b3;
-    font: #ffffff; 
-    padding: 0 20px 0 20px;
+    color: #ffffff; 
+    padding: 20px 0;
     }
 a   {   text-align: center;
         text-transform: uppercase;
@@ -50,15 +50,14 @@ a   {   text-align: center;
 }
 main{
     width: 850px
-    margin: 35px 0 35px 0;
-    margin-left: align-self: auto;
-    margin-right: align-self: auto;
-}
+    margin: 35px auto;
+    }
 img{
-    margin: 40px 8px 0 8px;
+    margin: 40px 8px;
 }
 footer{
     text-transform: uppercase;
+    text-align: center;
     padding: 0 20px;
     background-color: #0d2c40;
     color: white;
@@ -67,12 +66,10 @@ footer{
     font-weight: 500;
 }
 .copyright{
-    font-family: Raleway, sans-serif;
-    float: left;
+      float: left;
 }
 .message{
-    font-family: Raleway, sans-serif;
-    float: right;
+      float: right;
 }
 .clearfix:after {
     visibility: hidden;
@@ -82,18 +79,11 @@ footer{
     height: 0;
     font-size: 0;
     }
-    .name{
+.name{
         color: #f15b31;
         font-weight: 700;
             }
-    a{
-        border-bottom: 2px solid transparent;
-    a:hover{
-        /* Mouse over link */
-    }
-    }
-
-      
-    
-    
-</body>
+a:hover{
+    border-color: white;
+            }
+              
